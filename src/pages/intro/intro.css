@@ -1,0 +1,96 @@
+
+.introContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    /* border-bottom: 1px solid rgb(128, 123, 123); */
+}
+
+.introHeader {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: .6rem;
+    opacity: 0;
+}
+
+.introHeaderOne {
+    color: rgb(243, 207, 123);
+}
+
+.introHeaderTwo {
+    color: rgb(240, 192, 81);
+}
+
+.introHeaderThree {
+    color: rgb(249, 196, 71);
+}
+
+.introHeaderFour {
+    color: rgb(252, 192, 53);
+}
+
+.introHeaderFive {
+    color: rgb(252, 181, 15);
+}
+
+
+.introImg {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.introImgImage {
+    width: 50%;
+    height: auto;
+}
+
+
+.btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.btnTran {
+    width: 100px;
+    padding: .4rem 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    border-radius: 5px;
+    margin-right: 6px;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+
+.btn {
+    width: 100px;
+    padding: .4rem 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-right: 6px;
+    background-color: #f4f4f4;
+    color: black;
+    cursor: pointer;
+    transition: all .4s linear;
+
+}
+
+.btn:hover , .btnTran:hover {
+    background-color: rgb(40, 38, 38);
+    color: #fff;
+    border-color: #fff;
+}

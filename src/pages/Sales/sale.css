@@ -1,0 +1,79 @@
+
+.saleContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.saleHeader {
+    width: 100%;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.saleHeaderTitle {
+    font-size: 2rem;
+    font-weight: 900;
+    opacity: 0;
+}
+
+.itemCardContainer {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 24, 28);
+    border-radius: 2px;
+    border: 2px solid rgb(57, 56, 56);
+    padding: 1rem;
+    opacity: 0;
+}
+
+.itemCardImage {
+    width: 80%;
+    height: auto;
+}
+
+.itemCardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(47, 46, 46);
+    padding: .6rem .4rem;
+}
+
+.itemCardInfo span {
+    flex: 1;
+    border-radius: 5px;
+}
+
+.itemCardBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: .5rem 0;
+    margin-top: 1rem;
+}
+
+.itemCardBtn {
+    min-width: 100px;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color:#000;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid rgb(55, 54, 54);
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+.itemCardBtn:hover {
+    background-color: rgb(48, 82, 84);
+    border: 2px solid #f5f5f5;
+}

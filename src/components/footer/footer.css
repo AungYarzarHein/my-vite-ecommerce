@@ -1,0 +1,66 @@
+.footerContainer {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    padding-top: 3rem;
+    /* background-color: black; */
+    height: 200px;
+    
+}
+
+.footerLogo {
+    min-width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: gold; */
+}
+
+.footerHeader {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+
+.footerlogoImage {
+    width: 20%;
+    height: auto;
+}
+
+.adOne , .adTwo , .adThree {
+    font-size: .7rem;
+}
+
+.footerInfo {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footerInfoSocial {
+    width: 100%;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socialIcon {
+    font-size: 2rem;
+}
+
+.socialIcon:hover {
+    color: rgb(249, 145, 145);
+}
+
+.smallInfo {
+    display: flex;
+    flex: 1;
+    min-height: 100px;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
